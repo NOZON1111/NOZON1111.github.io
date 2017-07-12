@@ -1,51 +1,87 @@
 <!DOCTYPE html>
-<html>
 <head>
-<title>Prof online</title>
-<style>
-body {
-text-align: center;
-background: url("http://news.cornellcollege.edu/wp-content/uploads/2014/11/1060_CornellCollege2014.jpg") no-repeat center center fixed;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-color: white;
-font-family: helvettica;
-}
-.submit {
- height: 50px;
- width: 100px;
- }
-p {
-margin: 0;
-font-size: 40px;
-}
-input {
-background: white;
-color: black;
-border: 0;
-padding: 10px;
-font-size: 18px;
-}
- button {
-   background: red;
-   color: white;
-  border: 0;
-padding: 10px;
-font-size: 18px;
-  
-  }
-
-</style>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://wwwassets.rand.org/content/rand/capabilities/solutions/evaluating-the-effectiveness-of-teacher-pay-for-performance/_jcr_content/par/solution.aspectfit.868x455.jpg/x1458932496869.jpg.pagespeed.ic.pDUMYugpaT.jpg');
+      background-size: cover;
+      color: white;
+      
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid black;
+      border-radius: 20px;
+    }
+    img2 {
+      margin: 10px 0px 0px 0px;
+      border: 2px solid black;
+      border-radius: 20px;
+      
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
 </head>
-
-       <a href="http://www.ebay.ca/itm/Microsoft-LifeCam-Studio-Webcam/252899749247">Recomended webcam for use by teacher</a> 
-
 <body>
-</html>
-<p>Welcome to prof online</p>
-<input type="email" placeholder="Your email">
- <button>submit</button>
-
-
+  <header>
+    <img src="https://mail.google.com/mail/u/0/?ui=2&ik=f9874270a0&view=fimg&th=15d37edcd5893e73&attid=0.1&disp=emb&realattid=ii_15d37ed55a577f53&attbid=ANGjdJ8i0BNGGyqZG983dkHX0kwR_qwwAonJNsDQ90LtlFt6TYULBqWVP9DG4uzvc5ZnLcFJttVVD6zquysBZu6am8bQwYW6Yq-9pcVBpNwgcC4RQBDWaJd7C8M6zFA&sz=w434-h442&ats=1499881923106&rm=15d37edcd5893e73&zw&atsh=1">
+    <h1>Prof Online</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="https://www.amazon.ca/AUSDOM-1920x1080P-Noise-cancelling-Recording-Computer/dp/B017SRHRR6/ref=sr_1_1?ie=UTF8&qid=1499884795&sr=8-1&keywords=webcam+3.0">Recomended Web Cam</a></li>
+      <li><a href="#">profonline@gmail.com</a></li>
+      <li><a href="/broadcast.html"> brodcast yourself</a></li>
+    </ul>
+  </header>
+  <img2 src="https://mail.google.com/mail/u/0/?ui=2&ik=f9874270a0&view=att&th=15d38027e186a310&attid=0.1&disp=safe&realattid=f_j51broyd0&zw">
+  <article>
+    <h2>About us</h2>
+    <p>Prof Online was founded on July 12 2017 by Cindy. Ever since her childhood, she despised waking up and walking to school. With Prof Online the next generation of students can stay in bed while learning.
+    </p>
+    
+  </article>
+  <article>
+    <h2>What Is Prof Online?</h2>
+    <p>Prof Online is a service to brodcast lessons and presentaions from teachers. By broadcasting lessons, absent students are able to watch their missed lessons. Speech functions allow students to directly ask their teachers questions while watching the live broadcast straight from the comfort of their own homes.</p>
+    
+  </article>
+  <article>
+    <h2>How to use Prof Online:</h2>
+    <p>Teachers simply set up the camera to begin their live broadcast. Using a speaker syste, students can continue to ask questions and interact during lessons. The broadcast will stimutaneously begin on the student's device through an app that is free to download.</p>
+  
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
